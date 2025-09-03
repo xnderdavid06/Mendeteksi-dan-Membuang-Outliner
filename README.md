@@ -9,10 +9,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # ------------------------------------------------------
-# 2. Baca dataset
+# 2. Baca dataset (format Excel)
 # ------------------------------------------------------
-# Ganti "data_set.csv" dengan nama file dataset kamu
-df = pd.read_csv("data_set.csv")
+df = pd.read_excel("data_awal.xlsx")
 
 # ------------------------------------------------------
 # 3. Inspeksi awal
